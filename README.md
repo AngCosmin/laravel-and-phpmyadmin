@@ -69,7 +69,7 @@ http://your-project.local/
 - Install mysql-server
 ``sudo apt-get install mysql-server``
 - Install phpmyadmin
-``sudo apt-get install phpmyadmin``
+``sudo apt-get install phpmyadmin php-mbstring php-gettext``
 
 ### Problems
 
