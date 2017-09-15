@@ -64,7 +64,8 @@ http://your-project.local/
 - Install phpmyadmin
 ``sudo apt-get install phpmyadmin``
 
-*If phpmyadmin was installed with success but when you go on http://localhost/phpmyadmin you receive a not found message, then do this:*
+### Problems:
+#### If phpmyadmin was installed with success but when you go on http://localhost/phpmyadmin you receive a not found message, then do this:
 - Open file 
 ``sudo vim /etc/apache2/apache2.conf``
 - Add this line somewhere:
