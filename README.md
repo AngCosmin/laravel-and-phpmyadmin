@@ -9,7 +9,7 @@
 - Install ``sudo apt-get install software-properties-common python-software-properties`` for ``add-apt-repository``
 - ``sudo add-apt-repository ppa:ondrej/php``
 - ``sudo apt-get update``
-- ``sudo apt-get install php7.1 (from comments)``
+- ``sudo apt-get install php7.1``
 
 ### Get Composer
 - Get 
