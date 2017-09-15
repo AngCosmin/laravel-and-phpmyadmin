@@ -36,7 +36,7 @@
     ServerAdmin webmaster@localhost
     DocumentRoot /var/www/html/your-project/public
 
-    <Directory /var/www/html/project>
+    <Directory /var/www/html/your-project>
         AllowOverride All
     </Directory>
 
