@@ -56,9 +56,13 @@
 - Edit file ``sudo vim /etc/hosts``
 - Add this line	``127.0.0.1   your-project.local``
 
-### Go to:
+### Go to
 http://your-project.local/
 
+
+### Problems
+
+- If you are using composer install and receive this kind of errors: ``the requested PHP extension mbstring is missing from your system.`` then use for example ``apt-cache search php7.1-mbstring`` to search for the extension and then install it using ``sudo apt-get install php7.1-mbstring``.
 
 # 2. Phpmyadmin
 
@@ -67,12 +71,13 @@ http://your-project.local/
 - Install phpmyadmin
 ``sudo apt-get install phpmyadmin``
 
-### Problems:
-#### If phpmyadmin was installed with success but when you go on http://localhost/phpmyadmin you receive a not found message, then do this:
-- Open file 
-``sudo vim /etc/apache2/apache2.conf``
-- Add this line somewhere:
-``Include /etc/phpmyadmin/apache.conf``
+### Problems
+
+- If phpmyadmin was installed with success but when you go on http://localhost/phpmyadmin you receive a not found message, then do this:
+    - Open file 
+    ``sudo vim /etc/apache2/apache2.conf``
+    - Add this line somewhere:
+    ``Include /etc/phpmyadmin/apache.conf``
 
 **All tested on elementaryOS 0.4.1 Loki**
 
