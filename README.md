@@ -9,7 +9,7 @@
 - Install ``sudo apt-get install software-properties-common python-software-properties`` for ``add-apt-repository``
 - ``sudo add-apt-repository ppa:ondrej/php``
 - ``sudo apt-get update``
-- ``sudo apt-get install php7.1``
+- ``sudo apt-get install php7.1 php7.1-mbstring php7.1-xml``
 
 ### Get Composer
 - Get 
@@ -78,6 +78,8 @@ http://your-project.local/
     ``sudo vim /etc/apache2/apache2.conf``
     - Add this line somewhere:
     ``Include /etc/phpmyadmin/apache.conf``
+    - Restart apache
+    ``sudo service apache2 restart``
 
 **All tested on elementaryOS 0.4.1 Loki**
 
