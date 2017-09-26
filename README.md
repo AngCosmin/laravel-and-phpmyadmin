@@ -33,7 +33,8 @@
 - Create a new file 
 ``sudo vim your-project.conf``
 - Copy this in your-project.conf
-```<VirtualHost *:80>
+```
+<VirtualHost *:80>
     ServerName yourproject.local
 
     ServerAdmin webmaster@localhost
