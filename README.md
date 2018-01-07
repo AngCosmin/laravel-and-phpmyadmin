@@ -6,7 +6,7 @@
 ``sudo apt-get install apache2 -y``
 
 ### Install PHP7
-- Install ``sudo apt-get install software-properties-common python-software-properties`` for ``add-apt-repository``
+- Install ``sudo apt-get install software-properties-common`` for ``add-apt-repository``
 - ``sudo add-apt-repository ppa:ondrej/php``
 - ``sudo apt-get update``
 - ``sudo apt-get install php7.1 php7.1-mbstring php7.1-xml``
