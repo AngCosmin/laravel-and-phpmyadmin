@@ -42,6 +42,7 @@
 
     <Directory /var/www/html/your-project>
         AllowOverride All
+        Require local
     </Directory>
 
     ErrorLog ${APACHE_LOG_DIR}/error.log
